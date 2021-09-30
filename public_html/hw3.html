@@ -7,10 +7,13 @@
     <script>
         window.addEventListener("load", () => {
             console.log("loaded via javascript");
+            tag = document.getElementsByTagName("a");
+            for (x of tag){x.addEventListener("click", getCurrentSelection)};
             //TODO: add any extra onload processing you may need here
         });
-        function getCurrentSelection() {
-            setTimeout(() => {
+        function getCurrentSelection(event) {
+            console.log(event);
+            setTimeout(() => {updateCurrentPage(event.srcElement.innerText)
                 //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
                 //TODO: add code for processing the current selection 
 
@@ -24,7 +27,7 @@
     }
     li a {
         padding: 10px 12px;
-        color:black;
+        color: red;
         text-align: left;
     }
     li a:hover {
@@ -34,7 +37,16 @@
         background-color: lightskyblue;
     } 
     ul li{
-        content: "\2713";
+        list-style-type: "✓";
+    }
+    h1::first-letter{
+        text-transform: capitalize;
+    }
+    ul a{
+        text-transform: capitalize;
+    }
+    li a:link{
+        color: green;
     }
         /* TODO: make edits here */
     </style>
