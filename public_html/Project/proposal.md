@@ -23,87 +23,112 @@
 ### Proposal Checklist and Evidence
 
 - Milestone 1
-- [ ] (mm/dd/yyyy of completion) User will be able to register a new account
+- [ ] (10/07/2021) User will be able to register a new account
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: completed
+    - Direct Link: https://iab32-prod.herokuapp.com/Project/register.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 [(repeat as necessary)](https://github.com/iab32/IT202-11/pull/14)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to login to their account (given they enter the correct credentials)
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141475692-27d4d0ec-7c27-4e1d-a8a0-a32bd1489a89.png)
+        - showing email validation
+      - Screenshot #2 ![image](https://user-images.githubusercontent.com/90282180/141476245-77ba1c50-24d2-4ac9-9846-a10ab94062d7.png)
+        - showing password has 60 characters and hashed
+      - Screenshot #3 ![image](https://user-images.githubusercontent.com/90282180/141476909-d79ed001-9708-4af8-b1f5-e6b7484966dc.png)
+        - showing duplicate email notice (also shows the email doesn't get cleared when form is submitted and server side validation fails)
+      - Screenshot #4 ![image](https://user-images.githubusercontent.com/90282180/141477319-4a1a7673-ef24-4f09-a796-f700a274ab3d.png)
+        - showing duplicate username notice
+      - Screenshot #5 ![image](https://user-images.githubusercontent.com/90282180/141477922-bc4bab5c-1fe7-467b-a17e-c40133ad8f43.png)
+        - showing code that does server-side validation 
+- [ ] (10/07/2021) User will be able to login to their account (given they enter the correct credentials)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: complete
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/login.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/iab32/IT202-11/pull/14)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to logout
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141479153-96069ff9-a483-401c-8085-e5f17f5995f5.png)
+        - Attempting to login with email
+      - Screenshot #2 ![image](https://user-images.githubusercontent.com/90282180/141479325-70e27e21-766d-48dd-9908-e74f18c19734.png)
+        - showing success login (same for valid username)
+      - Screenshot #3 ![image](https://user-images.githubusercontent.com/90282180/141479557-94820fcd-3d69-47b0-8f03-7d2b519477c3.png)
+        - showing attempt to login with username
+      - Screenshot #4 ![image](https://user-images.githubusercontent.com/90282180/141479907-6be9011d-8213-4bf1-8b32-498e7144ccc6.png)
+        - showing non-existing user login attempt 
+      - Screenshot #5 ![image](https://user-images.githubusercontent.com/90282180/141480140-a40ef1b7-47e2-404c-881e-cf67531c73d2.png)
+        - showing invalid password
+      - Screenshot #6 ![image](https://user-images.githubusercontent.com/90282180/141480347-983fec19-8965-4623-8c0c-4e3c408e63e6.png)
+        - showing code for email and password validation
+- [ ] (10/07/2021) User will be able to logout
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/logout.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/iab32/IT202-11/pull/14)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) Basic security rules implemented
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141479557-94820fcd-3d69-47b0-8f03-7d2b519477c3.png)
+        - Successfully logging out
+- [ ] (11/11/2021) Basic security rules implemented
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/login.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/iab32/IT202-11/pull/29
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) Basic Roles implemented
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141498175-99e39c24-2206-4c00-9191-d6dbbec67b11.png)
+        - logged in function
+      - Screenshot #2 ![image](https://user-images.githubusercontent.com/90282180/141498648-bf0fad87-8a58-44e8-97f3-8e978fb2005a.png)
+        - logged in required
+      - Screenshot #3 ![image](https://user-images.githubusercontent.com/90282180/141499107-0beac4d9-4465-460f-a1dd-74104e13f7aa.png)
+        - Attempting to navigate to admin/create role
+- [ ] (11/11/2021) Basic Roles implemented
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: completed
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/login.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/iab32/IT202-11/pull/29)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) Site should have basic styles/theme applied; everything should be styled
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141499743-e0bc838d-0cc5-4941-a316-7d0d55046dde.png) 
+        - the roles table
+      - Screenshot #2 ![image](https://user-images.githubusercontent.com/90282180/141499987-21715f0e-6357-4b84-82ca-b44ad45199a4.png)
+        - User roles table
+- [ ] (11/11/2021) Site should have basic styles/theme applied; everything should be styled
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
+    - Status: completed
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/login.php)
+      - PR link #1 https://github.com/iab32/IT202-11/pull/30
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) Any output messages/errors should be “user friendly”
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141500469-d17921d3-930c-4a0b-985c-0e8d12a15ce7.png)
+        - the types of styles I did to the site
+- [ ] (11/11/2021) Any output messages/errors should be “user friendly”
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: complete
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/login.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/iab32/IT202-11/pull/28
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to see their profile 
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141501683-27a80358-07f1-4812-831f-c0ec448450bd.png)
+        - friendly message
+- [ ] (11/11/2021) User will be able to see their profile 
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: complete
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/profile.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/iab32/IT202-11/pull/26
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to edit their profile
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141502131-2640388b-0213-4e79-80f4-d50992799e48.png)
+        - the profile page
+- [ ] (11/11/2021) User will be able to edit their profile
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: complete
+    - Direct Link: (https://iab32-prod.herokuapp.com/Project/profile.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 https://github.com/iab32/IT202-11/pull/26
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 ![image](https://user-images.githubusercontent.com/90282180/141502841-2991a444-c133-4e60-ad4b-c8a70db0e7a7.png)
+        - password reset was a success
+    - Screenshot #2 ![image](https://user-images.githubusercontent.com/90282180/141503433-4abc92b1-25e0-4c3a-82a4-a829d8a5ceda.png)
+      - current password is invalid
 - Milestone 2
 - Milestone 3
 - Milestone 4
