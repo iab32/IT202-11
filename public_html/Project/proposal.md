@@ -211,7 +211,7 @@
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to remove a single item from their cart vai button click
+-  [ ] (mm/dd/yyyy of completion) User will be able to remove a single item from their cart vai button click
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
