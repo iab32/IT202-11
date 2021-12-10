@@ -161,7 +161,7 @@
  [https://iab32-prod.herokuapp.com/Project/shop.php](https://iab32-prod.herokuapp.com/Project/shop.php)</p></td></tr><tr><td>PRs:</td></tr><tr><td><table><tr><td>F11 - clear the entire cart<tr><td>Status: in-progress</td></tr><tr><td><img width="100%" src="https://user-images.githubusercontent.com/90282180/145480286-06076532-98f8-4ab1-9fb4-4a0ad3211eda.png"><p>A button that has a remove all cart</td></tr></td></tr></table></td></tr></td></tr></table>
 - Milestone 3
 - Milestone 4
-### Intructions
+### Instructions
 #### Don't delete this
 1. Pick one project type
 2. Create a proposal.md file in the root of your project directory of your GitHub repository
