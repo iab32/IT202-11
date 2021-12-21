@@ -573,3 +573,44 @@ function persistQueryString($page)
     $_GET["page"] = $page;
     return http_build_query($_GET);
 }
+function order($user_id,$total_price,$full_address,$payment_method)
+{
+    error_log("add_item() Item ID: user_id: $user_id");
+    $db = getDB();
+    $stmt = $db->prepare("INSERT INTO Orders (user_id, total_price, address, payment_method ) VALUES (:uid, :tp, :a , :pm) ");
+    try {
+        $stmt->execute([":uid" =>$user_id,":tp" =>$total_price,":a" =>$full_address,":pm" =>$payment_method]);
+        return $db->lastInsertId();
+    }catch (PDOException $e) {
+        error_log("Error adding items to OrderItems table: " . var_export($e->errorInfo, true));
+    }
+    return false;
+}
+function order_item($user_id,$order_id)
+{
+    //error_log("add_item() Item ID: order_id: $order_id");
+    $db = getDB();
+    $stmt = $db->prepare("INSERT INTO OrderItems (order_id,product_id, quantity, unit_price) SELECT :order_id, product_id , desired_quantity , unit_cost FROM Cart WHERE user_id = :uid");
+    //$stmt = $db->prepare("INSERT INTO OrderItems (order_id, product_id, quantity, unit_price) VALUES (:oid, :pid, :q, :up) ");
+    try {
+        $stmt->execute([":uid"=>$user_id, ":order_id"=>$order_id]);
+        return true;
+    }catch (PDOException $e) {
+        error_log("Error adding items to OrderItems table: " . var_export($e->errorInfo, true));
+    }
+    return false;
+}
+function redirect($path,$variable)
+{ //header headache
+    //https://www.php.net/manual/en/function.headers-sent.php#90160
+    /*headers are sent at the end of script execution otherwise they are sent when the buffer reaches it's limit and emptied */
+    if (!headers_sent()) {
+        //php redirect
+        die(header("Location: " . get_url($path)."?id=" . $variable));
+    }
+    //javascript redirect
+    echo "<script>window.location.href='" . get_url($path) . "?id=". $variable.  "';</script>";
+    //metadata redirect (runs if javascript is disabled)
+    echo "<noscript><meta http-equiv=\"refresh\" content=\"0;url=" . get_url($path) . "?id=". $variable ."\"/></noscript>";
+    die();
+}

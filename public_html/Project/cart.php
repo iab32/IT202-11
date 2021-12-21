@@ -137,7 +137,11 @@ try {
                     <h3 class="text" style="text-align:center"  >Your cart is empty</h3>
                 <?php endif; ?>
             </div>
-        </table> 
+        </table>
+        <form action="checkout.php"method="PUT">
+                                <!--<input type="hidden" name="ordertotal" value="<?php echo$cart_total;?>" ></input>-->
+                                <button style= "margin-top: 30px; width: 200px" type = "submit"  name ="Checkout"  class = "btn btn-primary btn-lg col-12">Checkout</button> 
+                                </form> 
 </div>
 <?php
 require(__DIR__ . "/../../partials/footer.php");
