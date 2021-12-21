@@ -92,29 +92,26 @@ require_once(__DIR__ . "/../../lib/functions.php");
 <div class="container-fluid">
     <form method="POST">
         <h1>Checkout</h1>
-        <div class="row" >
+        <div class = "row" >
+        <div class="col" >
             <h3 id ="noflex" style="margin-left: 40px; margin-top: 10px;">Shipping Address</h3>
-                <div class="col">
-                    <label style= "text-align:left; margin-left: 60px; margin-top: 10px; width:100%;" class="form-label" >
+                    <label style= "text-align:left; margin-left: 30px; margin-top: 10px; width:100%;" class="form-label" >
                         <span style ="margin-left: 10px;">Full Name (First and Last Name)</span>    
                         <input class="form-control" type="text" name="name" placeholder= "Name" style ="width:80%">
                         <span style ="margin-left: 10px; margin-top: 10px;"> Phone Number</span>    
-                        <input class="form-control" type="number" name="number" placeholder= "10 digit without '-' " style ="width:58%">
+                        <input class="form-control" type="number" name="number" placeholder= "10 digit without '-' " style ="width:80%">
                     </label>
-                </div>
-                <div class="col">
+                
                     <label style= "text-align:left; margin-left: 30px; margin-top: 10px; width:100%;" class="form-label" >
                         <span style ="margin-left: 10px;">Address</span>    
-                        <input class="form-control" type="text" name="address" placeholder= "Street address or PO-box" style ="width:100%">
-                        <input class="form-control" type="text" name="apt"placeholder= "Apt,unit,suite,building,floor,etc" style ="margin-top: 25px; width:100%;">
+                        <input class="form-control" type="text" name="address" placeholder= "Street address or PO-box" style ="width:80%">
+                        <input class="form-control" type="text" name="apt"placeholder= "Apt,unit,suite,building,floor,etc" style ="margin-top: 25px; width:80%;">
                     </label>
-                </div>
-                <div class="col">
-                    <label style= "text-align:left; margin-left: 90px; margin-top: 10px; width:100%;" class="form-label" >
+                    <label style= "text-align:left; margin-left: 30px; margin-top: 10px; width:100%;" class="form-label" >
                         <span style ="margin-left: 10px; margin-top: 10px;">City</span>    
-                        <input class="form-control" type="text" name="city" style ="width:50%">
+                        <input class="form-control" type="text" name="city" style ="width:80%">
                         <span style ="margin-left: 10px;">State</span>  
-                        <select class="form-control" name="state" style ="margin-left: 10px; width:50%;">
+                        <select class="form-control" name="state" style ="width:80%;">
                             <option value=" ">Select</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -169,11 +166,9 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <option value="WY">Wyoming</option>
                         </select>   
                     </label>
-                </div>
-                <div class="col">
-                    <label style= "text-align:left; margin-left: 10px; margin-top: 10px; width:100%;" class="form-label" >
+                    <label style= "text-align:left; margin-left: 30px; margin-top: 10px; width:100%;" class="form-label" >
                         <span style ="margin-left: 10px;">Country</span>    
-                        <select class="form-control" name="country" style ="margin-left: 10px; width:50%;">
+                        <select class="form-control" name="country" style ="width:80%;">
                             <option>Select</option>
                             <option value="United States">United States</option>
                             <option value="Afghanistan">Afghanistan</option>
@@ -219,13 +214,11 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <option value="United Kingdom">United Kingdom</option>
                         </select>
                         <span style ="margin-left: 10px;">ZIP Code</span>    
-                        <input class="form-control" type="text" name="zipcode" placeholder= "5 digit" style ="width:50%">
+                        <input class="form-control" type="text" name="zipcode" placeholder= "5 digit" style ="width:80%">
                     </label>
-                </div>
         </div>
-        <div class ="row">
+        <div class ="col">
             <h3 id ="noflex" style="margin-left: 40px; margin-top: 10px;">Payment Method</h3>
-            <div class="col">
                 
                     <label style= "text-align:left; margin-left: 60px; margin-top: 10px;">
                         <input type="radio" name="payment" id="method1" value="Credit Card">
@@ -249,13 +242,8 @@ require_once(__DIR__ . "/../../lib/functions.php");
                     <label style= "text-align:left; margin-top: 10px; width: 190px;" >    
                         <input class="form-control" type="number" name="payment_check" placeholder= "Enter the total cost" style ="width:100%" >
                     </label>
-                
-            </div>
-        </div>
-        <div class ="row">
-            <h3 id ="noflex" style="margin-left: 40px; margin-top: 10px;">Review items</h3>
-            <div class="col">
-                <table class="table text-dark" style="margin-left: 60px; width: 60%;">
+                    <h3 id ="noflex" style="margin-left: 40px; margin-top: 10px;">Review items</h3>
+                <table class="table text-light" style="margin-left: 60px; width: 60%;">
                 <?php global $cart_total; ?>
                 <?php global $total; ?>
                 <?php global $temp_id;?>
@@ -308,7 +296,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                     <h5 class="text" style="text-align:center"  >Your cart is empty</h5>
                 <?php endif; ?>
                 </table>
-            </div>
+            <div class="row">
             <div class="col">
                 <?php if($temp_quantity > 0) :?>
                     <h3 style = "text-align:center;"><u>Summary</u></h3>
@@ -317,6 +305,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <?php echo "$",$cart_total ?></h5> 
                 <?php endif; ?>
             </div>
+            </div>
         </div>
         <div class ="row" style= "text-align:center;">
             <h2 style= "text-align:center;">
@@ -324,6 +313,9 @@ require_once(__DIR__ . "/../../lib/functions.php");
                 <td><button  type = "submit" name ="button_order" class = "btn btn-primary btn-lg" onclick="">Order</button></td>
             </h2>
         </div>
+        </div>
+</div>
+        <div class ="row">
     </form> 
 </div>
 <?php

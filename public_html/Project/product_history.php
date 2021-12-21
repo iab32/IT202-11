@@ -43,11 +43,11 @@ require_once(__DIR__ . "/../../lib/functions.php");
                                 <?php endif; ?>
                             <?php endforeach; ?>
                             <?php if($order_user_id == $once_user_id) :?>
-                                <a id ="noflex" style="width : 700px;margin-left: 30px; margin-top: 20px;" href="purchase_detail_page.php?id=<?php se($order_number, "id"); ?>"><?php echo " ★🌟 Order Number : ",$order_number," with the total cost of $",$order_total," placed at ",$order_created ; ?></a>
+                                <a id ="noflex" style="width : 700px;margin-left: 30px; margin-top: 20px;" href="product_details_page.php?id=<?php se($order_number, "id"); ?>"><?php echo "Order Number : ",$order_number," and the total cost is $",$order_total; ?></a>
                             <?php endif; ?>
                             <?php if($order_user_id != $once_user_id) :?>
                                 <a id ="noflex" style="margin-left: 20px; margin-top: 20px;"><?php echo "User : ", $order_user_id ?></a>
-                                <a id ="noflex" style="width : 700px;margin-left: 30px; margin-top: 20px;" href="purchase_detail_page.php?id=<?php se($order_number, "id"); ?>"><?php echo " ★🌟 Order Number : ",$order_number," with the total cost of $",$order_total," placed at ",$order_created ; ?></a>
+                                <a id ="noflex" style="width : 700px;margin-left: 30px; margin-top: 20px;" href="product_details_page.php?id=<?php se($order_number, "id"); ?>"><?php echo "Order Number : ",$order_number," and the total cost is $",$order_total; ?></a>
                                 <?php $once_user_id= $order_user_id ?>
                             <?php endif; ?>
                         <?php endforeach; ?>
@@ -73,7 +73,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <?php endif; ?>
                         <?php endforeach; ?>
                         <?php if($order_user_id == $user_id) :?>
-                            <a id ="noflex" style="width : 700px; margin-left: 20px; margin-top: 20px;" href="purchase_detail_page.php?id=<?php se($order_number, "id"); ?>"><?php echo " ★🌟 Order Number : ",$order_number," with the total cost of $",$order_total," placed at ",$order_created ; ?></a>
+                            <a id ="noflex" style="width : 700px; margin-left: 20px; margin-top: 20px;" href="product_details_page.php?id=<?php se($order_number, "id"); ?>"><?php echo "Order Number : ",$order_number," and the total cost is $",$order_total ?></a>
                         <?php endif; ?>
                     <?php endforeach; ?>
             <?php endif; ?>

@@ -30,7 +30,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
     }
 ?>
 <div class="container-fluid">
-    <h1 id ="noflex" style="text-align: center; margin-top: 20px;">Thank you for your purchase</h1>
+    <h1 id ="noflex" style="text-align: left; margin-top: 20px;">Thank you</h1>
     <div class="row">  
         <h3 id ="noflex" style="margin-left: 20px;margin-top: 10px;" ><u>Orders Information</u></h3>
             <?php foreach ($results as $index => $record) : ?>
@@ -89,7 +89,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                         <tr></tr>
                     </thread>
                 </table>
-                <h6 id ="noflex" style="width : 300px;margin-left: 30px; margin-top: 20px;" ><?php echo "🌟 Item Name : ",$OrderItems_name; ?></h6>
+                <h6 id ="noflex" style="width : 300px;margin-left: 30px; margin-top: 20px;" ><?php echo "Item Name : ",$OrderItems_name; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Description : ",$OrderItems_description; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Quantity : ",$OrderItems_quantity; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Unit Price : $ ",$OrderItems_unit_price; ?></h6>

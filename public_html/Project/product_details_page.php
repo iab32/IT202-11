@@ -106,7 +106,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                         <tr></tr>
                     </thread>
                 </table>
-                <h6 id ="noflex" style="width : 300px;margin-left: 30px; margin-top: 20px;" ><?php echo "🌟 Item Name : ",$OrderItems_name; ?></h6>
+                <h6 id ="noflex" style="width : 300px;margin-left: 30px; margin-top: 20px;" ><?php echo "Item Name : ",$OrderItems_name; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Description : ",$OrderItems_description; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Quantity : ",$OrderItems_quantity; ?></h6>
                 <h6 id ="noflex" style="width : 300px;margin-left: 5px; margin-top: 20px;" ><?php echo "Unit Price : $ ",$OrderItems_unit_price; ?></h6>
