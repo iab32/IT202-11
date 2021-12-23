@@ -21,7 +21,7 @@
 ### End Line item / Feature Template
 --> 
 ### Proposal Checklist and Evidence
-
+https://mediaspace.njit.edu/media/IT202+Demo-+Imaan+Bajwa/1_24lncnaf
 - Milestone 1
 - [ ] (10/07/2021) User will be able to register a new account
   -  List of Evidence of Feature Completion
@@ -331,6 +331,516 @@
 </td>
 </tr></td></tr></table>
 - Milestone 4
+<<<<<<< HEAD
+- 
+=======
+  
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+<table>
+<tr><td>milestone 4</td></tr><tr><td>
+<table>
+<tr><td>F1 - User can set their profile to be public or private (will need another column in Users table) ()</td></tr>
+<<<<<<< HEAD
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [http://iab32-dev.herokuapp.com/Project/profile.php](http://iab32-dev.herokuapp.com/Project/profile.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+=======
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+<tr><td>
+<table>
+<tr><td>F1 - If public, hide email address from other users</td></tr>
+<tr><td>Status: 
+<<<<<<< HEAD
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147290429-2a2ac9ba-422b-4ec4-9a3d-641faea50066.PNG">
+<p>the settings for the user to turn on or off being public</p>
+=======
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F2 - User will be able to rate a product they purchased ()</td></tr>
+<<<<<<< HEAD
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/product_details_page.php](https://iab32-dev.herokuapp.com/Project/product_details_page.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Create table called Ratings (id, product_id, user_id, rating, comment, created)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147291147-fcf4d901-a9ba-464f-868d-8554e75e069d.PNG">
+<p>rating table that shows the score, the comment</p>
+=======
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Create table called Ratings (id, product_id, user_id, rating, comment, created)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - 1-5 rating</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - Text Comment (use TEXT data type in sql)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - Must be done on the Product Details Page</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - Ratings and Rating Comments will be visible on the Product Details page</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - Show the average rating on the Product Details Page</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F3 - User’s Purchase History Changes ()</td></tr>
+<<<<<<< HEAD
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/product_history.php](https://iab32-dev.herokuapp.com/Project/product_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - Filter by date, range Filter by category, Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147291493-496a3afa-baba-4925-9d2d-ff604545e778.PNG">
+<p>the order history for the regular user</p>
+=======
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - Filter by date range</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F3 - Filter by category</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F3 - Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F3 - Add pagination</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F4 - Store Owner Purchase History Changes ()</td></tr>
+<<<<<<< HEAD
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/product_history.php](https://iab32-dev.herokuapp.com/Project/product_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - Filter by Date Range, Filter by Category, Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147291712-9c884c34-e361-4d3f-aacf-b11bb2c48794.PNG">
+<p>the order history for the admin</p>
+=======
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - Filter by Date Range</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F4 - Filter by Category</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<<<<<<< HEAD
+<table>
+<tr><td>F5 - Add pagination to Shop Page (and any other product lists not yet mentioned) ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/shop.php](https://iab32-dev.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F5 - item 1</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+=======
+<tr><td>
+<table>
+<tr><td>F4 - Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F4 - Add pagination</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<<<<<<< HEAD
+<table>
+<tr><td>F6 - Store Owner will be able to see all products out of stock ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/shop.php](https://iab32-dev.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+=======
+<tr><td>
+<table>
+<tr><td>F4 - The result page should show the accurate total price of the combined search results (i.e., if just 3 records show each of $25, it should show $75 total for this view)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F5 - Add pagination to Shop Page (and any other product lists not yet mentioned) ()</td></tr>
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+<tr><td>
+<table>
+<tr><td>F5 - Add pagination to Shop Page (and any other product lists not yet mentioned)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F6 - Store Owner will be able to see all products out of stock ()</td></tr>
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+<tr><td>
+<table>
+<tr><td>F6 - This will be added as a filter to their product list page from Milestone 2</td></tr>
+<tr><td>Status: 
+<<<<<<< HEAD
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147291941-a3166f72-aacd-4079-b6c0-62d64ab26e36.PNG">
+<p>stocks column</p>
+=======
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<<<<<<< HEAD
+<table>
+<tr><td>F7 - User can sort products by average rating on the Shop Page ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-dev.herokuapp.com/Project/product_details.php](https://iab32-dev.herokuapp.com/Project/product_details.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/66](https://github.com/iab32/IT202-11/pull/66)</p></td></tr>
+=======
+<tr><td>
+<table>
+<tr><td>F6 - Pagination should account for this new filter</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F6 - Recommended to have the filter applied as a given value (i.e., where quantity is <= value)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F7 - User can sort products by average rating on the Shop Page ()</td></tr>
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:</td></tr>
+<tr><td>PRs:</td></tr>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+<tr><td>
+<table>
+<tr><td>F7 - Hint: may want to add an “average rating” field to the Products table and update this value any time a new rating is given for the product</td></tr>
+<tr><td>Status: 
+<<<<<<< HEAD
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/147292217-6353536c-a877-41e1-9f90-05907a55f6a4.PNG">
+<p>the average ratings column</p>
+=======
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+>>>>>>> 6865a66e1a6074b934d222e19c046f22e6bf0816
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr></td></tr></table>
 ### Instructions
 #### Don't delete this
 1. Pick one project type
