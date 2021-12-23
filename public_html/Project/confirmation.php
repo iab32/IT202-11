@@ -67,6 +67,8 @@ require_once(__DIR__ . "/../../lib/functions.php");
         <h3 id ="noflex" style="margin-left: 20px;margin-top: 30px;" ><u>Items Information</u></h3>
             <?php foreach ($results1 as $index => $record1) : ?>
                 <?php global $OrderItems_name; ?>
+                <?php global $product_stock; ?>
+                <?php global $product_ide; ?>
                 <?php global $OrderItems_description; ?>
                 <?php global $OrderItems_quantity; ?>
                 <?php global $OrderItems_unit_price; ?>
@@ -77,6 +79,12 @@ require_once(__DIR__ . "/../../lib/functions.php");
                         <?php if($column == "description") :?>
                             <?php $OrderItems_description= $value ?>
                         <?php endif; ?>
+                        <?php if($column == "product_id") :?>
+                            <?php $product_ide= $value ?>
+                        <?php endif; ?>
+                        <?php if($column == "stock") :?>
+                            <?php $product_stock= $value ?>
+                        <?php endif; ?>
                         <?php if($column == "quantity") :?>
                             <?php $OrderItems_quantity= $value ?>
                         <?php endif; ?>
@@ -84,6 +92,9 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <?php $OrderItems_unit_price= $value ?>
                         <?php endif; ?>
                 <?php endforeach; ?>
+                <?php if($OrderItems_quantity > 0) :?>
+                    <?php updating_stock($product_ide,$product_stock,$OrderItems_quantity);?>
+                <?php endif; ?>
                 <table>
                     <thread>
                         <tr></tr>

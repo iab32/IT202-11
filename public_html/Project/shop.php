@@ -6,7 +6,7 @@ $db = getDB();
 //Sort and Filters
 $col = se($_GET, "col", "cost", false);
 //allowed list
-if (!in_array($col, ["cost", "stock", "name", "created", "category"])) {
+if (!in_array($col, ["cost", "stock", "name", "created", "out_stock", "average_rating", "category"])) {
     $col = "cost"; //default value, prevent sql injection
 }
 $order = se($_GET, "order", "asc", false);
@@ -28,8 +28,11 @@ if (!empty($name)) {
     $params[":name"] = "%$name%";
 }
 //apply column and order sort
-if (!empty($col) && !empty($order)) {
+if (!empty($col) && !empty($order) && $col != "out_stock") {
     $query .= " ORDER BY $col $order"; //be sure you trust these values, I validate via the in_array checks above
+}
+if (!empty($col) && !empty($order) && $col=="out_stock") {
+    $query = " WHERE stock = 0"; //be sure you trust these values, I validate via the in_array checks above
 }
 //paginate function
 $per_page = 3;
@@ -163,6 +166,10 @@ try {
                     <option value="stock">Stock</option>
                     <option value="name">Name</option>
                     <option value="created">Created</option>
+                    <option value="average_rating">Average Rating</option>
+                    <?php if (has_role("Admin")) : ?>
+                        <option value="out_stock">Out of Stock</option>
+                    <?php endif; ?>
                 </select>
                 <script>
                     //quick fix to ensure proper value is selected since
@@ -200,6 +207,7 @@ try {
                     <div class="card-body">
                         <h5 class="card-title">Name: <?php se($item, "name"); ?></h5>
                         <p class="card-text">Description: <?php se($item, "description"); ?></p>
+                        <p  style="margin-bottom: 0px;"><u>Average rating: </u><?php se($item, "average_rating"); ?></p>
                     </div>
                     <div class="card-footer">
                         Cost: <?php se($item, "cost"); ?>
