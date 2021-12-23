@@ -139,7 +139,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                             <?php endif; ?>
                         <?php endforeach; ?>
                         <?php if($order_number>0) :?>
-                        <h5 style="margin-top : 20px;"><u><?php echo "Combined Total Price: $",$combined_total_cost; ?></u></h5>
+                        <h5 style="margin-top : 20px;"><u><?php echo "Combined Total Price: $",$combined_total_cost; ?></u></h5> 
                         <?php endif; ?>
             <?php endif; ?>
             <?php if (!has_role("Admin")) : ?>
