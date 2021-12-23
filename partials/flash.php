@@ -35,6 +35,9 @@
     .alert-danger {
         background-color: red;
     }
+    .alert-alert {
+        background-color: blue;
+    }
 
     .alert-info {
         background-color: teal;

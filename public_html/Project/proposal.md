@@ -160,6 +160,176 @@
 
  [https://iab32-prod.herokuapp.com/Project/shop.php](https://iab32-prod.herokuapp.com/Project/shop.php)</p></td></tr><tr><td>PRs:</td></tr><tr><td><table><tr><td>F11 - clear the entire cart<tr><td>Status: in-progress</td></tr><tr><td><img width="100%" src="https://user-images.githubusercontent.com/90282180/145480286-06076532-98f8-4ab1-9fb4-4a0ad3211eda.png"><p>A button that has a remove all cart</td></tr></td></tr></table></td></tr></td></tr></table>
 - Milestone 3
+
+<table>
+<tr><td>milestone 3</td></tr><tr><td>
+<table>
+<tr><td>F1 - User will be able to purchase items in their Cart ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-prod.herokuapp.com/Project/checkout.php](https://iab32-prod.herokuapp.com/Project/checkout.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/61](https://github.com/iab32/IT202-11/pull/61)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F1 - Create an Orders table (id, user_id, created, total_price, address, payment_method)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146875330-58080e1e-e236-4aaf-8b75-20e873d5aef3.PNG">
+<p>orders table</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - Create an OrderItems table (id, order_id, product_id, quantity, unit_price)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146876089-bf17fe03-5564-4bca-8a7c-6c0beb542aa2.PNG">
+<p>order items table</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - User will be asked for their Address for shipping purposes</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146876144-916ed499-f0f7-43a3-b8e9-55697ec9b61d.PNG">
+<p>address page</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - Order process</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146970296-ee3817ce-fc6c-4c5f-a9ef-d765556cae9a.PNG">
+<p>showing the order process from my order items table</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146970815-673a159f-d4c4-446c-b442-bff1b55e05d8.PNG">
+<p>another picture showing the order table data being inserted</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F2 - Order Confirmation Page ()</td></tr>
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-prod.herokuapp.com/confirmation.php](https://iab32-prod.herokuapp.com/confirmation.php)</p></td></tr>
+<tr><td>PRs:</td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Show the entire order details from the Order and OrderItems table (similar to cart)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p></p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - Displays a Thank you message</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146971590-914bcb52-ac89-4f6f-8e9f-a0cb351588c0.PNG">
+<p>A confirmation page with the thank you message</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F3 - User will be able to see their Purchase History ()</td></tr>
+<tr><td>Status: pending</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-prod.herokuapp.com/product_history.php](https://iab32-prod.herokuapp.com/product_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/63](https://github.com/iab32/IT202-11/pull/63)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - A list item can be clicked to view the full details in the Order Details Page (similar to Order Confirmation Page except no “Thank you” message)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/808080/ffffff?text=pending"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146973208-803d85f8-de83-4b67-95f0-46c6561392eb.PNG">
+<p>The order history from another user, not the admin</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F4 - Store Owner will be able to see all Purchase History ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://iab32-prod.herokuapp.com/product_history.php](https://iab32-prod.herokuapp.com/product_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/iab32/IT202-11/pull/63](https://github.com/iab32/IT202-11/pull/63)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - A list item can be clicked to view the full details in the Order Details Page (similar to Order Confirmation Page except no “Thank you” message)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90282180/146973068-ee4cab65-8cf6-489a-a0b0-f2c239049de0.png">
+<p>All of the order history from the admin user. </p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr></td></tr></table>
 - Milestone 4
   
 <table>

@@ -42,6 +42,9 @@ require_once(__DIR__ . "/../lib/functions.php");
 
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('profile.php'); ?>">Profile</a></li>
                 <?php endif; ?>
+                <?php if (is_logged_in()) : ?>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('product_history.php'); ?>">Order History</a></li>
+                <?php endif; ?>
                 <li class="nav-item"><a class="nav-link" href="<?php echo get_url('shop.php'); ?>">Shop</a></li>
                 <?php if (!is_logged_in()) : ?>
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('login.php'); ?>">Login</a></li>
